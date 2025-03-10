@@ -22,9 +22,9 @@ python fetch_news.py
 python index_articles.py
 ```
 
-3. Run the analysis system:
+3. Run query and ask questions:
 ```bash
-python analyze_news.py
+query.py
 ```
 
 ### Graph Visualization
