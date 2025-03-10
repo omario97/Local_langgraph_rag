@@ -12,7 +12,7 @@ python query_news.py "Your question about recent financial news"
 
 For advanced analysis with historical context and better retrieval capabilities:
 
-1. Fetch latest news articles (supports multiple providers including BRFG, DJ-N, DJ-RT):
+1. Fetch latest news articles:
 ```bash
 python fetch_news.py
 ```
@@ -42,7 +42,7 @@ The system uses LangGraph's MemorySaver for conversation persistence:
 - `fetch_news.py`: Retrieves articles from multiple news providers with rate limiting
 - `index_articles.py`: Processes and stores articles in vector store
 - `articles/`: Directory for storing fetched news articles
-- `vector_store/`: FAISS index storage (if using vector store option)
+- `vector_store/`: FAISS index storage
 - `query/`: Query (RAG) from vector store.  
 
 
