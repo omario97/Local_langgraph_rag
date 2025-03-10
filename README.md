@@ -27,19 +27,7 @@ python index_articles.py
 query.py
 ```
 
-### Graph Visualization
 
-The system includes a Jupyter notebook for visualizing the LangGraph structure:
-
-```bash
-jupyter notebook graph_visualization_with_save.ipynb
-```
-
-This notebook:
-- Displays the complete LangGraph structure of the news analysis system
-- Shows the flow between prepare_prompt and generate_response nodes
-- Includes explanatory markdown about each component
-- Allows saving the visualization as `news_analysis_graph.png`
 
 ### Memory Persistence
 
